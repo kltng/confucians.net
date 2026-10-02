@@ -1,0 +1,1973 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zh-Hant" data-theme="confucian">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>廟宇 | 儒者</title>
+  <meta name="description" content="孔廟從祀儒者資料庫：誰曾從祀、罷祀或復祀，在何時、何地，根據甚麼證據。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23a3271c'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='serif'%3E儒%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/css/site-base-css.css">
+  <link rel="stylesheet" href="/static/css/site-tailwind-css.css">
+  <script type="module" crossorigin="" src="/static/js/site-bundle.js"></script>
+<link href="/static/js/csrf-C7XvwPHf.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+  
+  
+</head>
+<body class="min-h-screen flex flex-col bg-base-100 text-base-content">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 btn btn-sm">跳至內容</a>
+  <header class="sticky top-0 z-30 border-b border-base-300 bg-base-100/90 backdrop-blur" data-pagefind-ignore="all">
+    <div class="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2 sm:px-6">
+      <a href="/zh-hant/" class="flex shrink-0 items-center gap-2 mr-2">
+        <span class="seal" aria-hidden="true">儒</span>
+        <span class="font-display text-lg font-semibold leading-tight">儒者
+          <span class="hidden text-xs font-normal text-base-content/60 sm:block">孔廟從祀</span>
+        </span>
+      </a>
+      <nav class="hidden flex-1 lg:block" aria-label="主選單">
+        <ul class="menu menu-horizontal menu-sm gap-0.5 px-0">
+          
+
+<li><a href="/zh-hant/people/" class="">人物</a></li>
+<li><a href="/zh-hant/temples/" class=" menu-active" aria-current="page">廟宇</a></li>
+<li><a href="/zh-hant/lineage/" class="">師承</a></li>
+<li><a href="/zh-hant/proposals/" class="">奏請</a></li>
+<li><a href="/zh-hant/documents/" class="">文書</a></li>
+<li><a href="/zh-hant/works/" class="">文獻</a></li>
+<li><a href="/zh-hant/music/" class="">樂舞</a></li>
+<li><a href="/zh-hant/data/" class="">資料下載</a></li>
+
+        </ul>
+      </nav>
+      <div class="ml-auto flex items-center gap-1">
+        <a href="/zh-hant/search/" class="btn btn-ghost btn-sm btn-square" aria-label="搜尋" title="搜尋">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </a>
+        
+          <a href="/en/temples/" class="btn btn-ghost btn-sm" lang="en" hreflang="en">EN</a>
+        
+        <details class="dropdown dropdown-end lg:hidden">
+          <summary class="btn btn-ghost btn-sm btn-square" aria-label="選單">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </summary>
+          <ul class="menu dropdown-content z-40 mt-2 w-56 rounded-box border border-base-300 bg-base-100 p-2 shadow-lg">
+            
+
+<li><a href="/zh-hant/people/" class="py-2">人物</a></li>
+<li><a href="/zh-hant/temples/" class="py-2 menu-active" aria-current="page">廟宇</a></li>
+<li><a href="/zh-hant/lineage/" class="py-2">師承</a></li>
+<li><a href="/zh-hant/proposals/" class="py-2">奏請</a></li>
+<li><a href="/zh-hant/documents/" class="py-2">文書</a></li>
+<li><a href="/zh-hant/works/" class="py-2">文獻</a></li>
+<li><a href="/zh-hant/music/" class="py-2">樂舞</a></li>
+<li><a href="/zh-hant/data/" class="py-2">資料下載</a></li>
+
+          </ul>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
+    
+    <div data-pagefind-body>
+      
+  
+  
+  
+<header class="mb-6 sm:mb-8">
+  
+  <h1 class="font-display text-3xl font-bold text-balance sm:text-4xl">廟宇</h1>
+  <p class="mt-3 max-w-prose text-base-content/75 sm:text-lg">實際存在的廟宇。全國性的祀典見於從祀名單頁，不會套用到地方廟學。</p>
+</header>
+
+  <div x-data="{ country: '', q: '' }">
+    <div class="mb-5 flex flex-col gap-3 sm:flex-row" data-pagefind-ignore="all">
+      <label class="input w-full sm:max-w-xs">
+        <i class="fa-solid fa-filter opacity-50" aria-hidden="true"></i>
+        <input type="search" class="grow" x-model.trim="q" placeholder="以名稱篩選" aria-label="以名稱篩選">
+      </label>
+      <select class="select w-full sm:w-56" x-model="country" aria-label="今屬國家">
+        <option value="">所有國家</option>
+        <option>China</option><option>Indonesia</option><option>Japan</option><option>Malaysia</option><option>North Korea</option><option>South Korea</option><option>Taiwan</option><option>United States</option><option>Vietnam</option>
+      </select>
+    </div>
+    <div class="table-wrap">
+      <table class="table table-sm">
+        <thead><tr><th>名稱</th><th class="hidden sm:table-cell">層級</th><th>今屬國家</th><th class="hidden md:table-cell">創建</th></tr></thead>
+        <tbody>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === '') && (!q || '臺北府文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/532/">臺北府文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td></td>
+              <td class="hidden md:table-cell whitespace-nowrap">1884</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === '') && (!q || '鳳山縣文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/474/">鳳山縣文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td></td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || 'Q18033145'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/613/">Q18033145</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '万泉文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/462/">万泉文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '上海文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/617/">上海文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '东明文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/463/">东明文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '中江文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/619/">中江文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '临沂孔庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/464/">临沂孔庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1997</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '乌鲁木齐文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/671/">乌鲁木齐文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1922</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '乐山文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/618/">乐山文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '乐陵文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/465/">乐陵文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '云龙州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/559/">云龙州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '介休文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/587/">介休文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '代县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/466/">代县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '保山县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/549/">保山县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '儀隴文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/620/">儀隴文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '兰州府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/467/">兰州府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '兴宁学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/640/">兴宁学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '凤仪文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/515/">凤仪文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '剑川文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/562/">剑川文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '劍州文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/621/">劍州文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '北京孔廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/456/">北京孔廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1302</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '华宁文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/539/">华宁文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南京夫子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/680/">南京夫子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南华文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/556/">南华文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南召文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/468/">南召文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南宁孔庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/572/">南宁孔庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">2011</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南涧文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/545/">南涧文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南部文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/622/">南部文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '南阳府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/531/">南阳府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '双溪文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/469/">双溪文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '名山文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/623/">名山文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '呈贡文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/475/">呈贡文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '嘉定孔庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/470/">嘉定孔庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '堂邑文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/472/">堂邑文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '墨江文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/521/">墨江文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '夏县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/584/">夏县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '大同府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/473/">大同府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '大姚文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/543/">大姚文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '大理文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/520/">大理文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '天津文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/477/">天津文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '太原县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/478/">太原县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '太原府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/479/">太原府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '太康文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/528/">太康文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '太谷文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/586/">太谷文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '学宫大成殿'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/482/">学宫大成殿</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '宁德文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/526/">宁德文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '宁洱文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/552/">宁洱文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '安化文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/570/">安化文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '安宁文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/483/">安宁文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '安岳文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/624/">安岳文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '安福文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/484/">安福文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '宜春文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/662/">宜春文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1934</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '宝山文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/485/">宝山文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '宣威文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/548/">宣威文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '富源文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/560/">富源文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '富顺文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/486/">富顺文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '尼山孔庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/611/">尼山孔庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '岳池文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/625/">岳池文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '峨山文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/541/">峨山文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '崇寧文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/626/">崇寧文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '崇慶州文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/627/">崇慶州文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '崇明学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/577/">崇明学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '崞阳文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/489/">崞阳文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '嵩明文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/537/">嵩明文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '巍山文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/517/">巍山文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '州城文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/561/">州城文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '巨野文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/490/">巨野文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '师宗文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/571/">师宗文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '平遥文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/491/">平遥文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '平阴文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/492/">平阴文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '广丰文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/493/">广丰文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '广通文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/544/">广通文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '庐州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/653/">庐州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '廣安文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/628/">廣安文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '廣漢文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/629/">廣漢文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '建德文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/494/">建德文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '建水文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/495/">建水文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '开平学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/496/">开平学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '弥勒文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/557/">弥勒文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '弥渡文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/536/">弥渡文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '归善学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/583/">归善学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '德庆学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/497/">德庆学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '德阳文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/498/">德阳文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '揭阳学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/594/">揭阳学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '文武二帝廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/499/">文武二帝廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '新乡文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/533/">新乡文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '新会学宮'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/616/">新会学宮</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '旌德文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/652/">旌德文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '日照文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/681/">日照文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '昆明文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/535/">昆明文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '昆阳文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/555/">昆阳文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '易门文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/554/">易门文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '昭通文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/550/">昭通文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '曲阜孔庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/644/">曲阜孔庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">478</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '曲靖文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/558/">曲靖文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '東華三院文武廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/672/">東華三院文武廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1847</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '桐城文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/503/">桐城文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '梅州学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/593/">梅州学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '梅窩文武廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/504/">梅窩文武廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '楚雄文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/648/">楚雄文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '正定县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/505/">正定县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '武冈文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/565/">武冈文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '永和文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/506/">永和文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '永昌府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/551/">永昌府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '汝州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/529/">汝州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '江川文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/507/">江川文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '汶上文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/508/">汶上文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '河南府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/534/">河南府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '泉州府文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/581/">泉州府文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '浑源文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/509/">浑源文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '浚县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/574/">浚县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '浮山文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/510/">浮山文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '海丰红宫、红场旧址'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/511/">海丰红宫、红场旧址</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '海阳县儒学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/512/">海阳县儒学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '清源文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/602/">清源文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '清溪文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/630/">清溪文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '渠縣文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/631/">渠縣文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '溫江文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/632/">溫江文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '潞城文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/603/">潞城文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '澄江文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/476/">澄江文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '濟南府學文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/660/">濟南府學文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '灌县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/582/">灌县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '犍为文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/597/">犍为文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '玉溪文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/546/">玉溪文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '琅井文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/553/">琅井文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '番禺学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/673/">番禺学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '石林文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/651/">石林文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '祥云文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/516/">祥云文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '福州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/487/">福州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1851</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '禹州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/530/">禹州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '离石文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/598/">离石文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '红四方面军总指挥部旧址'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/636/">红四方面军总指挥部旧址</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '绛县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/604/">绛县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '绛州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/501/">绛州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '绩溪文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/522/">绩溪文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '罗定学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/615/">罗定学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '罗雄文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/547/">罗雄文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '腾冲文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/519/">腾冲文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '萧县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/580/">萧县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '蒙自文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/542/">蒙自文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '蒲江文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/633/">蒲江文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '蘇州文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/647/">蘇州文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '襄垣文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/585/">襄垣文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '襄城文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/480/">襄城文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '西充文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/634/">西充文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '資中文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/635/">資中文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '辽州文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/596/">辽州文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '通海文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/540/">通海文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '邓川文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/538/">邓川文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '郏县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/527/">郏县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '金仙文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/637/">金仙文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '金堂文武廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/638/">金堂文武廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '金庄文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/595/">金庄文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '长乐学宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/642/">长乐学宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '长子文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/599/">长子文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '闽清文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/524/">闽清文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1004</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '阳城文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/600/">阳城文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '阳宗县文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/573/">阳宗县文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '阳宗镇旧文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/563/">阳宗镇旧文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '雙河文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/639/">雙河文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '静乐文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/601/">静乐文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '静升文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/588/">静升文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '颜庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/675/">颜庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '香港文武廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/643/">香港文武廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'China') && (!q || '高唐文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/605/">高唐文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>China</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Indonesia') && (!q || 'Gredja Boen Bio'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/614/">Gredja Boen Bio</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Indonesia</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Japan') && (!q || '多久聖廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/641/">多久聖廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Japan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1708</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Japan') && (!q || '孔子廟 (長崎)'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/481/">孔子廟 (長崎)</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Japan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1893</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Japan') && (!q || '忍岡聖堂'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/518/">忍岡聖堂</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Japan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1632</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Japan') && (!q || '湯島聖堂'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/612/">湯島聖堂</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Japan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1690</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Japan') && (!q || '至聖廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/488/">至聖廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Japan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1676</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Malaysia') && (!q || '三圣宫'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/575/">三圣宫</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Malaysia</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1887</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'North Korea') && (!q || '龍谷書院'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/514/">龍谷書院</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>North Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1658</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '유곡사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/677/">유곡사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1674</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '금구향교 대성전'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/609/">금구향교 대성전</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1390</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '나주향교 대성전'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/525/">나주향교 대성전</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '무주향교 대성전'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/610/">무주향교 대성전</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '화대리 성강서사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/678/">화대리 성강서사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1851</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '청주 상당사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/654/">청주 상당사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '하동 금남사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/666/">하동 금남사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1682</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '함안 무산사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/667/">함안 무산사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '화성 금산사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/656/">화성 금산사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1912</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '보은 풍림정사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/664/">보은 풍림정사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1872</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '봉화 청량정사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/676/">봉화 청량정사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '화순 벽지리 충효사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/657/">화순 벽지리 충효사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1598</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '청주 서원 모충사'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/655/">청주 서원 모충사</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '光州 褒忠祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/591/">光州 褒忠祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '南原 龜川祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/606/">南原 龜川祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1856</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '居昌 悟禮祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/663/">居昌 悟禮祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1870</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '扶餘 彰烈祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/589/">扶餘 彰烈祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1717</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '河東 景賢祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/665/">河東 景賢祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1784</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '淸風祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/590/">淸風祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '論山 忠憲祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/607/">論山 忠憲祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '論山 遯岩書院 惟敬祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/608/">論山 遯岩書院 惟敬祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1634</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'South Korea') && (!q || '首爾文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/661/">首爾文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>South Korea</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1398</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '南安國小孔子祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/569/">南安國小孔子祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1948</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '嘉義孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/471/">嘉義孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1706</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '宜蘭孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/649/">宜蘭孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '左營啟明堂'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/592/">左營啟明堂</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '彰化孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/670/">彰化孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1726</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '敦源聖廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/650/">敦源聖廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '新竹市孔廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/500/">新竹市孔廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '新龍宮'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/679/">新龍宮</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '日月潭文武廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/455/">日月潭文武廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1938</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '桃園孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/502/">桃園孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1989</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '海濱國小孔子祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/658/">海濱國小孔子祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '羅東孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/645/">羅東孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '臺中市孔廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/578/">臺中市孔廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1976</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '臺北孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/567/">臺北孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1879</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '臺南孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/669/">臺南孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1665</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '萃文書院'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/579/">萃文書院</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1812</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '象山孔廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/659/">象山孔廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '高雄孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/523/">高雄孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1684</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '高雄旗山孔子廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/646/">高雄旗山孔子廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1985</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '鳳山舊城孔子廟崇聖祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/513/">鳳山舊城孔子廟崇聖祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1704</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Taiwan') && (!q || '鳳林國小孔子祠'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/568/">鳳林國小孔子祠</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Taiwan</td>
+              <td class="hidden md:table-cell whitespace-nowrap">1950</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'United States') && (!q || 'Temple of Confucius, New York City'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/566/">Temple of Confucius, New York City</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>United States</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || 'Hòn Chén Temple'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/668/">Hòn Chén Temple</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || 'Kiến An Cung'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/457/">Kiến An Cung</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || 'Minh Huong Temple of Literature, Hoi An'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/564/">Minh Huong Temple of Literature, Hoi An</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || '兴安文庙'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/674/">兴安文庙</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || '毛田文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/576/">毛田文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || '永隆文聖廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/459/">永隆文聖廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || '鎮邊文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/461/">鎮邊文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap">2002</td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || '順化文廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/460/">順化文廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+            <tr class="hover:bg-base-200" x-show="(!country || country === 'Vietnam') && (!q || '高嶺文聖廟'.includes(q))">
+              <td><a class="link link-hover font-medium" href="/zh-hant/temple/458/">高嶺文聖廟</a>
+                <div class="text-xs text-base-content/60 sm:hidden">未知</div></td>
+              <td class="hidden sm:table-cell">未知</td>
+              <td>Vietnam</td>
+              <td class="hidden md:table-cell whitespace-nowrap"></td>
+            </tr>
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+    </div>
+  </main>
+
+  <footer class="mt-8 border-t border-base-300 bg-base-200" data-pagefind-ignore="all">
+    <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:px-6 md:grid-cols-3">
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <span class="seal scale-90" aria-hidden="true">儒</span>
+          <span class="font-display text-base font-semibold">孔廟從祀</span>
+        </div>
+        <p class="text-base-content/70 max-w-xs">
+          本站每一項資料都注明年代與出處。資料可以下載及再利用。
+        </p>
+      </div>
+      <nav aria-label="瀏覽">
+        <h2 class="font-semibold mb-2">瀏覽</h2>
+        <ul class="grid grid-cols-2 gap-1">
+          
+
+<li><a href="/zh-hant/people/" class="link link-hover">人物</a></li>
+<li><a href="/zh-hant/temples/" class="link link-hover menu-active" aria-current="page">廟宇</a></li>
+<li><a href="/zh-hant/lineage/" class="link link-hover">師承</a></li>
+<li><a href="/zh-hant/proposals/" class="link link-hover">奏請</a></li>
+<li><a href="/zh-hant/documents/" class="link link-hover">文書</a></li>
+<li><a href="/zh-hant/works/" class="link link-hover">文獻</a></li>
+<li><a href="/zh-hant/music/" class="link link-hover">樂舞</a></li>
+<li><a href="/zh-hant/data/" class="link link-hover">資料下載</a></li>
+
+        </ul>
+      </nav>
+      <div>
+        <h2 class="font-semibold mb-2">資料下載</h2>
+        <ul class="space-y-1">
+          <li><a class="link link-hover" href="/zh-hant/data/">下載資料</a></li>
+          <li><a class="link link-hover" href="/zh-hant/search/">搜尋</a></li>
+          <li>
+            
+              <a class="link link-hover" href="/en/temples/" lang="en">English</a>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-base-300">
+      <p class="mx-auto max-w-6xl px-4 py-4 text-xs text-base-content/70 sm:px-6">
+        © 2026 <a class="link link-hover" href="https://kwokleongtang.net" rel="author">KL Tang</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,110 @@
+[
+ {
+  "id": 12,
+  "title": "文廟享祀錄",
+  "compiler_as_written": "Kim, Kwi-ju; Ku, Sang",
+  "juan": "",
+  "date_as_written": "1765 (catalogue date)",
+  "year": 1765,
+  "date_precision": "year"
+ },
+ {
+  "id": 6,
+  "title": "文廟彙考",
+  "compiler_as_written": "Jiang, Yiqing; Gong, Shengzheng",
+  "juan": "",
+  "date_as_written": "1827 (catalogue date)",
+  "year": 1827,
+  "date_precision": "year"
+ },
+ {
+  "id": 5,
+  "title": "文廟史典",
+  "compiler_as_written": "Mo, Ruitang",
+  "juan": "",
+  "date_as_written": "1829 (catalogue date)",
+  "year": 1829,
+  "date_precision": "year"
+ },
+ {
+  "id": 7,
+  "title": "文廟丁祭譜",
+  "compiler_as_written": "Lan, Zhongrui",
+  "juan": "",
+  "date_as_written": "1845 (catalogue date)",
+  "year": 1845,
+  "date_precision": "year"
+ },
+ {
+  "id": 3,
+  "title": "文廟上丁禮樂備考",
+  "compiler_as_written": "Liu, Kunyi",
+  "juan": "",
+  "date_as_written": "1870 (catalogue date)",
+  "year": 1870,
+  "date_precision": "year"
+ },
+ {
+  "id": 2,
+  "title": "皇朝祭器樂舞錄",
+  "compiler_as_written": "Yan, Shusen; Xu, Changda",
+  "juan": "",
+  "date_as_written": "1871 (catalogue date)",
+  "year": 1871,
+  "date_precision": "year"
+ },
+ {
+  "id": 4,
+  "title": "文廟通考",
+  "compiler_as_written": "Niu, Shumei",
+  "juan": "",
+  "date_as_written": "1872 (catalogue date)",
+  "year": 1872,
+  "date_precision": "year"
+ },
+ {
+  "id": 10,
+  "title": "文廟祀典考",
+  "compiler_as_written": "Pang, Zhonglu",
+  "juan": "",
+  "date_as_written": "1878 (catalogue date)",
+  "year": 1878,
+  "date_precision": "year"
+ },
+ {
+  "id": 9,
+  "title": "晋陽明備錄",
+  "compiler_as_written": "Shao, Xian",
+  "juan": "",
+  "date_as_written": "1882 (catalogue date)",
+  "year": 1882,
+  "date_precision": "year"
+ },
+ {
+  "id": 8,
+  "title": "文廟禮樂摘要",
+  "compiler_as_written": "Ye, Boying",
+  "juan": "",
+  "date_as_written": "1885 (catalogue date)",
+  "year": 1885,
+  "date_precision": "year"
+ },
+ {
+  "id": 11,
+  "title": "文廟從祀位次考",
+  "compiler_as_written": "Chen, Jin",
+  "juan": "",
+  "date_as_written": "1886 (catalogue date)",
+  "year": 1886,
+  "date_precision": "year"
+ },
+ {
+  "id": 1,
+  "title": "昆明縣志",
+  "compiler_as_written": "Dai, Jiongsun",
+  "juan": "",
+  "date_as_written": "1913 (catalogue date)",
+  "year": 1913,
+  "date_precision": "year"
+ }
+]

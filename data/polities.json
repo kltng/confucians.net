@@ -1,0 +1,26 @@
+[
+ {
+  "id": 1,
+  "code": "china",
+  "name": "中國",
+  "name_en": "China"
+ },
+ {
+  "id": 2,
+  "code": "korea",
+  "name": "朝鮮",
+  "name_en": "Korea"
+ },
+ {
+  "id": 3,
+  "code": "vietnam",
+  "name": "大越",
+  "name_en": "Vietnam"
+ },
+ {
+  "id": 4,
+  "code": "japan",
+  "name": "日本",
+  "name_en": "Japan"
+ }
+]

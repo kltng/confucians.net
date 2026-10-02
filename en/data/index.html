@@ -1,0 +1,359 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-theme="confucian">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download the data | Confucians</title>
+  <meta name="description" content="A database of the scholars honoured in the Confucian temple (孔廟從祀): who was enshrined, removed or restored, when, where, and on what evidence.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23a3271c'/%3E%3Ctext x='16' y='23' font-size='20' text-anchor='middle' fill='white' font-family='serif'%3E儒%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/css/site-base-css.css">
+  <link rel="stylesheet" href="/static/css/site-tailwind-css.css">
+  <script type="module" crossorigin="" src="/static/js/site-bundle.js"></script>
+<link href="/static/js/csrf-C7XvwPHf.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+  
+  
+</head>
+<body class="min-h-screen flex flex-col bg-base-100 text-base-content">
+  <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-50 btn btn-sm">Skip to content</a>
+  <header class="sticky top-0 z-30 border-b border-base-300 bg-base-100/90 backdrop-blur" data-pagefind-ignore="all">
+    <div class="mx-auto flex max-w-6xl items-center gap-2 px-4 py-2 sm:px-6">
+      <a href="/en/" class="flex shrink-0 items-center gap-2 mr-2">
+        <span class="seal" aria-hidden="true">儒</span>
+        <span class="font-display text-lg font-semibold leading-tight">Confucians
+          <span class="hidden text-xs font-normal text-base-content/60 sm:block">Confucian Temple Enshrinement</span>
+        </span>
+      </a>
+      <nav class="hidden flex-1 lg:block" aria-label="Main menu">
+        <ul class="menu menu-horizontal menu-sm gap-0.5 px-0">
+          
+
+<li><a href="/en/people/" class="">People</a></li>
+<li><a href="/en/temples/" class="">Temples</a></li>
+<li><a href="/en/lineage/" class="">Lineage</a></li>
+<li><a href="/en/proposals/" class="">Proposals</a></li>
+<li><a href="/en/documents/" class="">Documents</a></li>
+<li><a href="/en/works/" class="">Sources</a></li>
+<li><a href="/en/music/" class="">Music</a></li>
+<li><a href="/en/data/" class=" menu-active" aria-current="page">Data</a></li>
+
+        </ul>
+      </nav>
+      <div class="ml-auto flex items-center gap-1">
+        <a href="/en/search/" class="btn btn-ghost btn-sm btn-square" aria-label="Search" title="Search">
+          <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+        </a>
+        
+          <a href="/zh-hant/data/" class="btn btn-ghost btn-sm" lang="zh-Hant" hreflang="zh-Hant">中文</a>
+        
+        <details class="dropdown dropdown-end lg:hidden">
+          <summary class="btn btn-ghost btn-sm btn-square" aria-label="Menu">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+          </summary>
+          <ul class="menu dropdown-content z-40 mt-2 w-56 rounded-box border border-base-300 bg-base-100 p-2 shadow-lg">
+            
+
+<li><a href="/en/people/" class="py-2">People</a></li>
+<li><a href="/en/temples/" class="py-2">Temples</a></li>
+<li><a href="/en/lineage/" class="py-2">Lineage</a></li>
+<li><a href="/en/proposals/" class="py-2">Proposals</a></li>
+<li><a href="/en/documents/" class="py-2">Documents</a></li>
+<li><a href="/en/works/" class="py-2">Sources</a></li>
+<li><a href="/en/music/" class="py-2">Music</a></li>
+<li><a href="/en/data/" class="py-2 menu-active" aria-current="page">Data</a></li>
+
+          </ul>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="mx-auto w-full max-w-6xl flex-1 px-4 py-6 sm:px-6 sm:py-10">
+    
+    <div data-pagefind-body>
+      
+  
+  
+  
+<header class="mb-6 sm:mb-8">
+  
+  <h1 class="font-display text-3xl font-bold text-balance sm:text-4xl">Download the data</h1>
+  <p class="mt-3 max-w-prose text-base-content/75 sm:text-lg">All public data, as CSV (opens in Excel), JSON, or one SQLite file with every table. Years are astronomical: 0 is 1 BCE. People are identified by their permanent ID (P0001), which never changes.</p>
+</header>
+
+  <a class="btn btn-primary mb-8" href="/data/confucians-public.sqlite" download>
+    <i class="fa-solid fa-database" aria-hidden="true"></i> All tables (SQLite)
+  </a>
+  <ul class="grid gap-3 md:grid-cols-2">
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">people</span>
+          <span class="text-sm text-base-content/60">174 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">One row per person. `merged_into` gives the ID of the record a merged person now lives in.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/people.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/people.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">names</span>
+          <span class="text-sm text-base-content/60">598 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Other names of each person (字, 號, 諡, 從祀稱號 …).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/names.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/names.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">biographies</span>
+          <span class="text-sm text-base-content/60">649 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Where each book gives a person&#x27;s biography. `copy` and `seq_start` locate the page scan.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/biographies.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/biographies.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">actions</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Dated enshrinement actions. Accounts of one event share an `occurrence`; `preferred` marks the one used.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/actions.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">tenures</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Computed from the preferred actions. `end_year` is the year of removal (empty = still there).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/tenures.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">proposals</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Requests to enshrine someone, with the outcome (approved, rejected, shelved, unknown).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/proposals.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">relations</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Person-to-person links (師事, 私淑, 講友, 父子).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/relations.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">polities</span>
+          <span class="text-sm text-base-content/60">4 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">States whose temples and rules are recorded.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/polities.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/polities.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">ritual_systems</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Empire-wide or kingdom-wide sacrificial rules.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/ritual_systems.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">temples</span>
+          <span class="text-sm text-base-content/60">227 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Real temples. Years are astronomical (0 = 1 BCE).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/temples.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/temples.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">documents</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Edicts, memorials and ritual texts (title and locator only).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/documents.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">sources</span>
+          <span class="text-sm text-base-content/60">16 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Books and scans that facts are cited from.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/sources.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/sources.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">citations</span>
+          <span class="text-sm text-base-content/60">1422 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Evidence for a row in another table: `table` and `row_id` say which one.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/citations.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/citations.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">works</span>
+          <span class="text-sm text-base-content/60">12 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">The 祭孔文獻 corpus: one row per edition.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/works.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/works.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">work_sections</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Parts of each work and what they contain (content-kind codes, separated by commas).</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/work_sections.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">hymns</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Hymns of the sacrifice, one per ritual step and rule.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/hymns.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">scores</span>
+          <span class="text-sm text-base-content/60">0 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Music and dance scores: which book section sets which hymn, in which notation.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          
+          <a class="btn btn-xs btn-outline" href="/data/scores.json" download>JSON</a>
+        </div>
+      </li>
+    
+      <li class="flex flex-col rounded-box border border-base-300 p-4">
+        <div class="flex items-baseline justify-between gap-2">
+          <span class="font-mono font-semibold">roster_entries</span>
+          <span class="text-sm text-base-content/60">174 rows</span>
+        </div>
+        <p class="mt-1 text-sm text-base-content/75">Seats in rosters, as the book gives them.</p>
+        <div class="mt-auto flex gap-2 pt-3">
+          <a class="btn btn-xs btn-outline" href="/data/roster_entries.csv" download>CSV</a>
+          <a class="btn btn-xs btn-outline" href="/data/roster_entries.json" download>JSON</a>
+        </div>
+      </li>
+    
+  </ul>
+
+    </div>
+  </main>
+
+  <footer class="mt-8 border-t border-base-300 bg-base-200" data-pagefind-ignore="all">
+    <div class="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:px-6 md:grid-cols-3">
+      <div>
+        <div class="flex items-center gap-2 mb-3">
+          <span class="seal scale-90" aria-hidden="true">儒</span>
+          <span class="font-display text-base font-semibold">Confucian Temple Enshrinement</span>
+        </div>
+        <p class="text-base-content/70 max-w-xs">
+          Every fact on this site is dated and cited. Data can be downloaded and reused.
+        </p>
+      </div>
+      <nav aria-label="Explore">
+        <h2 class="font-semibold mb-2">Explore</h2>
+        <ul class="grid grid-cols-2 gap-1">
+          
+
+<li><a href="/en/people/" class="link link-hover">People</a></li>
+<li><a href="/en/temples/" class="link link-hover">Temples</a></li>
+<li><a href="/en/lineage/" class="link link-hover">Lineage</a></li>
+<li><a href="/en/proposals/" class="link link-hover">Proposals</a></li>
+<li><a href="/en/documents/" class="link link-hover">Documents</a></li>
+<li><a href="/en/works/" class="link link-hover">Sources</a></li>
+<li><a href="/en/music/" class="link link-hover">Music</a></li>
+<li><a href="/en/data/" class="link link-hover menu-active" aria-current="page">Data</a></li>
+
+        </ul>
+      </nav>
+      <div>
+        <h2 class="font-semibold mb-2">Data</h2>
+        <ul class="space-y-1">
+          <li><a class="link link-hover" href="/en/data/">Download the data</a></li>
+          <li><a class="link link-hover" href="/en/search/">Search</a></li>
+          <li>
+            
+              <a class="link link-hover" href="/zh-hant/data/" lang="zh-Hant">繁體中文</a>
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-base-300">
+      <p class="mx-auto max-w-6xl px-4 py-4 text-xs text-base-content/70 sm:px-6">
+        © 2026 <a class="link link-hover" href="https://kwokleongtang.net" rel="author">KL Tang</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>

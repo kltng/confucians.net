@@ -1,0 +1,3590 @@
+[
+ {
+  "id": 1,
+  "pid": "P0001",
+  "name": "木金父",
+  "kind": "personal"
+ },
+ {
+  "id": 2,
+  "pid": "P0001",
+  "name": "肇聖王",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 3,
+  "pid": "P0002",
+  "name": "祈父",
+  "kind": "personal"
+ },
+ {
+  "id": 4,
+  "pid": "P0002",
+  "name": "裕聖王",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 5,
+  "pid": "P0003",
+  "name": "防叔",
+  "kind": "personal"
+ },
+ {
+  "id": 6,
+  "pid": "P0003",
+  "name": "詒聖王",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 7,
+  "pid": "P0004",
+  "name": "伯夏",
+  "kind": "personal"
+ },
+ {
+  "id": 8,
+  "pid": "P0004",
+  "name": "昌聖王",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 9,
+  "pid": "P0005",
+  "name": "叔梁紇",
+  "kind": "personal"
+ },
+ {
+  "id": 10,
+  "pid": "P0005",
+  "name": "啓聖王",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 11,
+  "pid": "P0006",
+  "name": "孔孟皮",
+  "kind": "personal"
+ },
+ {
+  "id": 12,
+  "pid": "P0006",
+  "name": "伯尼",
+  "kind": "courtesy"
+ },
+ {
+  "id": 13,
+  "pid": "P0006",
+  "name": "先賢孔氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 14,
+  "pid": "P0007",
+  "name": "顏無繇",
+  "kind": "personal"
+ },
+ {
+  "id": 15,
+  "pid": "P0007",
+  "name": "路",
+  "kind": "courtesy"
+ },
+ {
+  "id": 16,
+  "pid": "P0007",
+  "name": "先賢顏氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 17,
+  "pid": "P0008",
+  "name": "孔鯉",
+  "kind": "personal"
+ },
+ {
+  "id": 18,
+  "pid": "P0008",
+  "name": "伯魚",
+  "kind": "courtesy"
+ },
+ {
+  "id": 19,
+  "pid": "P0008",
+  "name": "先賢孔氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 20,
+  "pid": "P0009",
+  "name": "曾點",
+  "kind": "personal"
+ },
+ {
+  "id": 21,
+  "pid": "P0009",
+  "name": "晳",
+  "kind": "courtesy"
+ },
+ {
+  "id": 22,
+  "pid": "P0009",
+  "name": "先賢曾氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 23,
+  "pid": "P0010",
+  "name": "孟孫激",
+  "kind": "personal"
+ },
+ {
+  "id": 24,
+  "pid": "P0010",
+  "name": "公宜",
+  "kind": "courtesy"
+ },
+ {
+  "id": 25,
+  "pid": "P0010",
+  "name": "先賢孟孫氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 26,
+  "pid": "P0011",
+  "name": "周輔成",
+  "kind": "personal"
+ },
+ {
+  "id": 27,
+  "pid": "P0011",
+  "name": "伯大",
+  "kind": "courtesy"
+ },
+ {
+  "id": 28,
+  "pid": "P0011",
+  "name": "先儒周氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 29,
+  "pid": "P0012",
+  "name": "程珦",
+  "kind": "personal"
+ },
+ {
+  "id": 30,
+  "pid": "P0012",
+  "name": "伯溫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 31,
+  "pid": "P0012",
+  "name": "先儒程氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 32,
+  "pid": "P0013",
+  "name": "張迪",
+  "kind": "personal"
+ },
+ {
+  "id": 33,
+  "pid": "P0013",
+  "name": "先儒張氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 34,
+  "pid": "P0014",
+  "name": "朱松",
+  "kind": "personal"
+ },
+ {
+  "id": 35,
+  "pid": "P0014",
+  "name": "喬年",
+  "kind": "courtesy"
+ },
+ {
+  "id": 36,
+  "pid": "P0014",
+  "name": "獻靖",
+  "kind": "posthumous"
+ },
+ {
+  "id": 37,
+  "pid": "P0014",
+  "name": "先儒朱氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 38,
+  "pid": "P0015",
+  "name": "蔡元定",
+  "kind": "personal"
+ },
+ {
+  "id": 39,
+  "pid": "P0015",
+  "name": "季通",
+  "kind": "courtesy"
+ },
+ {
+  "id": 40,
+  "pid": "P0015",
+  "name": "文節",
+  "kind": "posthumous"
+ },
+ {
+  "id": 41,
+  "pid": "P0015",
+  "name": "先儒蔡氏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 42,
+  "pid": "P0016",
+  "name": "孔丘",
+  "kind": "personal"
+ },
+ {
+  "id": 43,
+  "pid": "P0016",
+  "name": "仲尼",
+  "kind": "courtesy"
+ },
+ {
+  "id": 44,
+  "pid": "P0016",
+  "name": "至聖先師孔子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 45,
+  "pid": "P0017",
+  "name": "顏回",
+  "kind": "personal"
+ },
+ {
+  "id": 46,
+  "pid": "P0017",
+  "name": "子淵",
+  "kind": "courtesy"
+ },
+ {
+  "id": 47,
+  "pid": "P0017",
+  "name": "復聖顏子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 48,
+  "pid": "P0018",
+  "name": "曾參",
+  "kind": "personal"
+ },
+ {
+  "id": 49,
+  "pid": "P0018",
+  "name": "子輿",
+  "kind": "courtesy"
+ },
+ {
+  "id": 50,
+  "pid": "P0018",
+  "name": "宗聖曾子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 51,
+  "pid": "P0019",
+  "name": "孔伋",
+  "kind": "personal"
+ },
+ {
+  "id": 52,
+  "pid": "P0019",
+  "name": "述聖子思子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 53,
+  "pid": "P0020",
+  "name": "孟軻",
+  "kind": "personal"
+ },
+ {
+  "id": 54,
+  "pid": "P0020",
+  "name": "子車",
+  "kind": "courtesy"
+ },
+ {
+  "id": 55,
+  "pid": "P0020",
+  "name": "亞聖孟子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 56,
+  "pid": "P0021",
+  "name": "閔損",
+  "kind": "personal"
+ },
+ {
+  "id": 57,
+  "pid": "P0021",
+  "name": "子騫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 58,
+  "pid": "P0021",
+  "name": "先賢閔子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 59,
+  "pid": "P0022",
+  "name": "冉雍",
+  "kind": "personal"
+ },
+ {
+  "id": 60,
+  "pid": "P0022",
+  "name": "仲弓",
+  "kind": "courtesy"
+ },
+ {
+  "id": 61,
+  "pid": "P0022",
+  "name": "先賢冉子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 62,
+  "pid": "P0023",
+  "name": "端木賜",
+  "kind": "personal"
+ },
+ {
+  "id": 63,
+  "pid": "P0023",
+  "name": "子貢",
+  "kind": "courtesy"
+ },
+ {
+  "id": 64,
+  "pid": "P0023",
+  "name": "先賢端木子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 65,
+  "pid": "P0024",
+  "name": "仲由",
+  "kind": "personal"
+ },
+ {
+  "id": 66,
+  "pid": "P0024",
+  "name": "子路",
+  "kind": "courtesy"
+ },
+ {
+  "id": 67,
+  "pid": "P0024",
+  "name": "季路",
+  "kind": "courtesy"
+ },
+ {
+  "id": 68,
+  "pid": "P0024",
+  "name": "先賢仲子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 69,
+  "pid": "P0025",
+  "name": "卜商",
+  "kind": "personal"
+ },
+ {
+  "id": 70,
+  "pid": "P0025",
+  "name": "子夏",
+  "kind": "courtesy"
+ },
+ {
+  "id": 71,
+  "pid": "P0025",
+  "name": "先賢卜子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 72,
+  "pid": "P0026",
+  "name": "有若",
+  "kind": "personal"
+ },
+ {
+  "id": 73,
+  "pid": "P0026",
+  "name": "子若",
+  "kind": "courtesy"
+ },
+ {
+  "id": 74,
+  "pid": "P0026",
+  "name": "先賢有子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 75,
+  "pid": "P0027",
+  "name": "冉耕",
+  "kind": "personal"
+ },
+ {
+  "id": 76,
+  "pid": "P0027",
+  "name": "伯牛",
+  "kind": "courtesy"
+ },
+ {
+  "id": 77,
+  "pid": "P0027",
+  "name": "先賢冉子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 78,
+  "pid": "P0028",
+  "name": "宰予",
+  "kind": "personal"
+ },
+ {
+  "id": 79,
+  "pid": "P0028",
+  "name": "子我",
+  "kind": "courtesy"
+ },
+ {
+  "id": 80,
+  "pid": "P0028",
+  "name": "先賢宰子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 81,
+  "pid": "P0029",
+  "name": "冉求",
+  "kind": "personal"
+ },
+ {
+  "id": 82,
+  "pid": "P0029",
+  "name": "子有",
+  "kind": "courtesy"
+ },
+ {
+  "id": 83,
+  "pid": "P0029",
+  "name": "先賢冉子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 84,
+  "pid": "P0030",
+  "name": "言偃",
+  "kind": "personal"
+ },
+ {
+  "id": 85,
+  "pid": "P0030",
+  "name": "子游",
+  "kind": "courtesy"
+ },
+ {
+  "id": 86,
+  "pid": "P0030",
+  "name": "先賢言子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 87,
+  "pid": "P0031",
+  "name": "顓孫師",
+  "kind": "personal"
+ },
+ {
+  "id": 88,
+  "pid": "P0031",
+  "name": "子張",
+  "kind": "courtesy"
+ },
+ {
+  "id": 89,
+  "pid": "P0031",
+  "name": "先賢顓孫子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 90,
+  "pid": "P0032",
+  "name": "朱熹",
+  "kind": "personal"
+ },
+ {
+  "id": 91,
+  "pid": "P0032",
+  "name": "元晦",
+  "kind": "courtesy"
+ },
+ {
+  "id": 92,
+  "pid": "P0032",
+  "name": "仲晦",
+  "kind": "courtesy"
+ },
+ {
+  "id": 93,
+  "pid": "P0032",
+  "name": "文",
+  "kind": "posthumous"
+ },
+ {
+  "id": 94,
+  "pid": "P0032",
+  "name": "先賢朱子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 95,
+  "pid": "P0033",
+  "name": "蘧瑗",
+  "kind": "personal"
+ },
+ {
+  "id": 96,
+  "pid": "P0033",
+  "name": "伯玉",
+  "kind": "courtesy"
+ },
+ {
+  "id": 97,
+  "pid": "P0033",
+  "name": "先賢蘧子瑗",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 98,
+  "pid": "P0034",
+  "name": "公孫僑",
+  "kind": "personal"
+ },
+ {
+  "id": 99,
+  "pid": "P0034",
+  "name": "先賢公孫子僑",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 100,
+  "pid": "P0035",
+  "name": "澹臺滅明",
+  "kind": "personal"
+ },
+ {
+  "id": 101,
+  "pid": "P0035",
+  "name": "子羽",
+  "kind": "courtesy"
+ },
+ {
+  "id": 102,
+  "pid": "P0035",
+  "name": "先賢澹臺子滅明",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 103,
+  "pid": "P0036",
+  "name": "林放",
+  "kind": "personal"
+ },
+ {
+  "id": 104,
+  "pid": "P0036",
+  "name": "子邱",
+  "kind": "courtesy"
+ },
+ {
+  "id": 105,
+  "pid": "P0036",
+  "name": "先賢林子放",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 106,
+  "pid": "P0037",
+  "name": "原憲",
+  "kind": "personal"
+ },
+ {
+  "id": 107,
+  "pid": "P0037",
+  "name": "子思",
+  "kind": "courtesy"
+ },
+ {
+  "id": 108,
+  "pid": "P0037",
+  "name": "先賢原子憲",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 109,
+  "pid": "P0038",
+  "name": "宓不齊",
+  "kind": "personal"
+ },
+ {
+  "id": 110,
+  "pid": "P0038",
+  "name": "子賤",
+  "kind": "courtesy"
+ },
+ {
+  "id": 111,
+  "pid": "P0038",
+  "name": "先賢宓子不齊",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 112,
+  "pid": "P0039",
+  "name": "南宮适",
+  "kind": "personal"
+ },
+ {
+  "id": 113,
+  "pid": "P0039",
+  "name": "子容",
+  "kind": "courtesy"
+ },
+ {
+  "id": 114,
+  "pid": "P0039",
+  "name": "先賢南宮子适",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 115,
+  "pid": "P0040",
+  "name": "公冶長",
+  "kind": "personal"
+ },
+ {
+  "id": 116,
+  "pid": "P0040",
+  "name": "子長",
+  "kind": "courtesy"
+ },
+ {
+  "id": 117,
+  "pid": "P0040",
+  "name": "子芝",
+  "kind": "courtesy"
+ },
+ {
+  "id": 118,
+  "pid": "P0040",
+  "name": "先賢公冶子長",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 119,
+  "pid": "P0041",
+  "name": "商瞿",
+  "kind": "personal"
+ },
+ {
+  "id": 120,
+  "pid": "P0041",
+  "name": "子木",
+  "kind": "courtesy"
+ },
+ {
+  "id": 121,
+  "pid": "P0041",
+  "name": "先賢商子瞿",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 122,
+  "pid": "P0042",
+  "name": "公晳哀",
+  "kind": "personal"
+ },
+ {
+  "id": 123,
+  "pid": "P0042",
+  "name": "季次",
+  "kind": "courtesy"
+ },
+ {
+  "id": 124,
+  "pid": "P0042",
+  "name": "先賢公晳子哀",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 125,
+  "pid": "P0043",
+  "name": "漆雕開",
+  "kind": "personal"
+ },
+ {
+  "id": 126,
+  "pid": "P0043",
+  "name": "子開",
+  "kind": "courtesy"
+ },
+ {
+  "id": 127,
+  "pid": "P0043",
+  "name": "先賢漆雕子開",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 128,
+  "pid": "P0044",
+  "name": "高柴",
+  "kind": "personal"
+ },
+ {
+  "id": 129,
+  "pid": "P0044",
+  "name": "子羔",
+  "kind": "courtesy"
+ },
+ {
+  "id": 130,
+  "pid": "P0044",
+  "name": "先賢高子柴",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 131,
+  "pid": "P0045",
+  "name": "司馬耕",
+  "kind": "personal"
+ },
+ {
+  "id": 132,
+  "pid": "P0045",
+  "name": "子牛",
+  "kind": "courtesy"
+ },
+ {
+  "id": 133,
+  "pid": "P0045",
+  "name": "先賢司馬子耕",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 134,
+  "pid": "P0046",
+  "name": "樊須",
+  "kind": "personal"
+ },
+ {
+  "id": 135,
+  "pid": "P0046",
+  "name": "子遲",
+  "kind": "courtesy"
+ },
+ {
+  "id": 136,
+  "pid": "P0046",
+  "name": "先賢樊子須",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 137,
+  "pid": "P0047",
+  "name": "梁鱣",
+  "kind": "personal"
+ },
+ {
+  "id": 138,
+  "pid": "P0047",
+  "name": "叔魚",
+  "kind": "courtesy"
+ },
+ {
+  "id": 139,
+  "pid": "P0047",
+  "name": "先賢梁子鱣",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 140,
+  "pid": "P0048",
+  "name": "商澤",
+  "kind": "personal"
+ },
+ {
+  "id": 141,
+  "pid": "P0048",
+  "name": "子季",
+  "kind": "courtesy"
+ },
+ {
+  "id": 142,
+  "pid": "P0048",
+  "name": "先賢商子澤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 143,
+  "pid": "P0049",
+  "name": "冉孺",
+  "kind": "personal"
+ },
+ {
+  "id": 144,
+  "pid": "P0049",
+  "name": "子魯",
+  "kind": "courtesy"
+ },
+ {
+  "id": 145,
+  "pid": "P0049",
+  "name": "先賢冉子孺",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 146,
+  "pid": "P0050",
+  "name": "巫馬施",
+  "kind": "personal"
+ },
+ {
+  "id": 147,
+  "pid": "P0050",
+  "name": "子旗",
+  "kind": "courtesy"
+ },
+ {
+  "id": 148,
+  "pid": "P0050",
+  "name": "先賢巫馬子施",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 149,
+  "pid": "P0051",
+  "name": "伯虔",
+  "kind": "personal"
+ },
+ {
+  "id": 150,
+  "pid": "P0051",
+  "name": "子析",
+  "kind": "courtesy"
+ },
+ {
+  "id": 151,
+  "pid": "P0051",
+  "name": "先賢伯子虔",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 152,
+  "pid": "P0052",
+  "name": "顏辛",
+  "kind": "personal"
+ },
+ {
+  "id": 153,
+  "pid": "P0052",
+  "name": "子柳",
+  "kind": "courtesy"
+ },
+ {
+  "id": 154,
+  "pid": "P0052",
+  "name": "先賢顏子辛",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 155,
+  "pid": "P0053",
+  "name": "冉季",
+  "kind": "personal"
+ },
+ {
+  "id": 156,
+  "pid": "P0053",
+  "name": "子產",
+  "kind": "courtesy"
+ },
+ {
+  "id": 157,
+  "pid": "P0053",
+  "name": "先賢冉子季",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 158,
+  "pid": "P0054",
+  "name": "曹卹",
+  "kind": "personal"
+ },
+ {
+  "id": 159,
+  "pid": "P0054",
+  "name": "子循",
+  "kind": "courtesy"
+ },
+ {
+  "id": 160,
+  "pid": "P0054",
+  "name": "先賢曹子卹",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 161,
+  "pid": "P0055",
+  "name": "漆雕徒父",
+  "kind": "personal"
+ },
+ {
+  "id": 162,
+  "pid": "P0055",
+  "name": "子有",
+  "kind": "courtesy"
+ },
+ {
+  "id": 163,
+  "pid": "P0055",
+  "name": "先賢漆雕子徒父",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 164,
+  "pid": "P0056",
+  "name": "公孫龍",
+  "kind": "personal"
+ },
+ {
+  "id": 165,
+  "pid": "P0056",
+  "name": "子石",
+  "kind": "courtesy"
+ },
+ {
+  "id": 166,
+  "pid": "P0056",
+  "name": "先賢公孫子龍",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 167,
+  "pid": "P0057",
+  "name": "漆雕哆",
+  "kind": "personal"
+ },
+ {
+  "id": 168,
+  "pid": "P0057",
+  "name": "子斂",
+  "kind": "courtesy"
+ },
+ {
+  "id": 169,
+  "pid": "P0057",
+  "name": "先賢漆雕子哆",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 170,
+  "pid": "P0058",
+  "name": "秦商",
+  "kind": "personal"
+ },
+ {
+  "id": 171,
+  "pid": "P0058",
+  "name": "子丕",
+  "kind": "courtesy"
+ },
+ {
+  "id": 172,
+  "pid": "P0058",
+  "name": "先賢秦子商",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 173,
+  "pid": "P0059",
+  "name": "公西赤",
+  "kind": "personal"
+ },
+ {
+  "id": 174,
+  "pid": "P0059",
+  "name": "子華",
+  "kind": "courtesy"
+ },
+ {
+  "id": 175,
+  "pid": "P0059",
+  "name": "先賢公西子赤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 176,
+  "pid": "P0060",
+  "name": "顏高",
+  "kind": "personal"
+ },
+ {
+  "id": 177,
+  "pid": "P0060",
+  "name": "子驕",
+  "kind": "courtesy"
+ },
+ {
+  "id": 178,
+  "pid": "P0060",
+  "name": "先賢顏子高",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 179,
+  "pid": "P0061",
+  "name": "任不齊",
+  "kind": "personal"
+ },
+ {
+  "id": 180,
+  "pid": "P0061",
+  "name": "選",
+  "kind": "courtesy"
+ },
+ {
+  "id": 181,
+  "pid": "P0061",
+  "name": "先賢任子不齊",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 182,
+  "pid": "P0062",
+  "name": "壤駟赤",
+  "kind": "personal"
+ },
+ {
+  "id": 183,
+  "pid": "P0062",
+  "name": "子徒",
+  "kind": "courtesy"
+ },
+ {
+  "id": 184,
+  "pid": "P0062",
+  "name": "先賢壤駟子赤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 185,
+  "pid": "P0063",
+  "name": "公良孺",
+  "kind": "personal"
+ },
+ {
+  "id": 186,
+  "pid": "P0063",
+  "name": "子正",
+  "kind": "courtesy"
+ },
+ {
+  "id": 187,
+  "pid": "P0063",
+  "name": "先賢公良子孺",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 188,
+  "pid": "P0064",
+  "name": "石作蜀",
+  "kind": "personal"
+ },
+ {
+  "id": 189,
+  "pid": "P0064",
+  "name": "子明",
+  "kind": "courtesy"
+ },
+ {
+  "id": 190,
+  "pid": "P0064",
+  "name": "先賢石作子蜀",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 191,
+  "pid": "P0065",
+  "name": "公肩定",
+  "kind": "personal"
+ },
+ {
+  "id": 192,
+  "pid": "P0065",
+  "name": "子中",
+  "kind": "courtesy"
+ },
+ {
+  "id": 193,
+  "pid": "P0065",
+  "name": "先賢公肩子定",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 194,
+  "pid": "P0066",
+  "name": "公夏首",
+  "kind": "personal"
+ },
+ {
+  "id": 195,
+  "pid": "P0066",
+  "name": "乘",
+  "kind": "courtesy"
+ },
+ {
+  "id": 196,
+  "pid": "P0066",
+  "name": "先賢公夏子首",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 197,
+  "pid": "P0067",
+  "name": "鄡單",
+  "kind": "personal"
+ },
+ {
+  "id": 198,
+  "pid": "P0067",
+  "name": "子家",
+  "kind": "courtesy"
+ },
+ {
+  "id": 199,
+  "pid": "P0067",
+  "name": "先賢鄡子單",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 200,
+  "pid": "P0068",
+  "name": "后處",
+  "kind": "personal"
+ },
+ {
+  "id": 201,
+  "pid": "P0068",
+  "name": "子里",
+  "kind": "courtesy"
+ },
+ {
+  "id": 202,
+  "pid": "P0068",
+  "name": "先賢后子處",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 203,
+  "pid": "P0069",
+  "name": "罕父黑",
+  "kind": "personal"
+ },
+ {
+  "id": 204,
+  "pid": "P0069",
+  "name": "子索",
+  "kind": "courtesy"
+ },
+ {
+  "id": 205,
+  "pid": "P0069",
+  "name": "先賢罕父子黑",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 206,
+  "pid": "P0070",
+  "name": "奚容蒧",
+  "kind": "personal"
+ },
+ {
+  "id": 207,
+  "pid": "P0070",
+  "name": "子皙",
+  "kind": "courtesy"
+ },
+ {
+  "id": 208,
+  "pid": "P0070",
+  "name": "先賢奚容子蒧",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 209,
+  "pid": "P0071",
+  "name": "榮旂",
+  "kind": "personal"
+ },
+ {
+  "id": 210,
+  "pid": "P0071",
+  "name": "子祺",
+  "kind": "courtesy"
+ },
+ {
+  "id": 211,
+  "pid": "P0071",
+  "name": "先賢榮子旂",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 212,
+  "pid": "P0072",
+  "name": "顏祖",
+  "kind": "personal"
+ },
+ {
+  "id": 213,
+  "pid": "P0072",
+  "name": "襄",
+  "kind": "courtesy"
+ },
+ {
+  "id": 214,
+  "pid": "P0072",
+  "name": "先賢顏子祖",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 215,
+  "pid": "P0073",
+  "name": "左人郢",
+  "kind": "personal"
+ },
+ {
+  "id": 216,
+  "pid": "P0073",
+  "name": "行",
+  "kind": "courtesy"
+ },
+ {
+  "id": 217,
+  "pid": "P0073",
+  "name": "先賢左人子郢",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 218,
+  "pid": "P0074",
+  "name": "句井疆",
+  "kind": "personal"
+ },
+ {
+  "id": 219,
+  "pid": "P0074",
+  "name": "子孟",
+  "kind": "courtesy"
+ },
+ {
+  "id": 220,
+  "pid": "P0074",
+  "name": "先賢句井子疆",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 221,
+  "pid": "P0075",
+  "name": "鄭國",
+  "kind": "personal"
+ },
+ {
+  "id": 222,
+  "pid": "P0075",
+  "name": "子徒",
+  "kind": "courtesy"
+ },
+ {
+  "id": 223,
+  "pid": "P0075",
+  "name": "先賢鄭子國",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 224,
+  "pid": "P0076",
+  "name": "秦祖",
+  "kind": "personal"
+ },
+ {
+  "id": 225,
+  "pid": "P0076",
+  "name": "子南",
+  "kind": "courtesy"
+ },
+ {
+  "id": 226,
+  "pid": "P0076",
+  "name": "先賢秦子祖",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 227,
+  "pid": "P0077",
+  "name": "原亢",
+  "kind": "personal"
+ },
+ {
+  "id": 228,
+  "pid": "P0077",
+  "name": "籍",
+  "kind": "courtesy"
+ },
+ {
+  "id": 229,
+  "pid": "P0077",
+  "name": "先賢原子亢",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 230,
+  "pid": "P0078",
+  "name": "縣成",
+  "kind": "personal"
+ },
+ {
+  "id": 231,
+  "pid": "P0078",
+  "name": "子祺",
+  "kind": "courtesy"
+ },
+ {
+  "id": 232,
+  "pid": "P0078",
+  "name": "先賢縣子成",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 233,
+  "pid": "P0079",
+  "name": "廉潔",
+  "kind": "personal"
+ },
+ {
+  "id": 234,
+  "pid": "P0079",
+  "name": "庸",
+  "kind": "courtesy"
+ },
+ {
+  "id": 235,
+  "pid": "P0079",
+  "name": "先賢廉子潔",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 236,
+  "pid": "P0080",
+  "name": "公祖句茲",
+  "kind": "personal"
+ },
+ {
+  "id": 237,
+  "pid": "P0080",
+  "name": "子之",
+  "kind": "courtesy"
+ },
+ {
+  "id": 238,
+  "pid": "P0080",
+  "name": "先賢公祖子句茲",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 239,
+  "pid": "P0081",
+  "name": "叔仲會",
+  "kind": "personal"
+ },
+ {
+  "id": 240,
+  "pid": "P0081",
+  "name": "子期",
+  "kind": "courtesy"
+ },
+ {
+  "id": 241,
+  "pid": "P0081",
+  "name": "先賢叔仲子會",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 242,
+  "pid": "P0082",
+  "name": "燕伋",
+  "kind": "personal"
+ },
+ {
+  "id": 243,
+  "pid": "P0082",
+  "name": "思",
+  "kind": "courtesy"
+ },
+ {
+  "id": 244,
+  "pid": "P0082",
+  "name": "先賢燕子伋",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 245,
+  "pid": "P0083",
+  "name": "公西輿如",
+  "kind": "personal"
+ },
+ {
+  "id": 246,
+  "pid": "P0083",
+  "name": "子上",
+  "kind": "courtesy"
+ },
+ {
+  "id": 247,
+  "pid": "P0083",
+  "name": "先賢公西子輿如",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 248,
+  "pid": "P0084",
+  "name": "樂欬",
+  "kind": "personal"
+ },
+ {
+  "id": 249,
+  "pid": "P0084",
+  "name": "子聲",
+  "kind": "courtesy"
+ },
+ {
+  "id": 250,
+  "pid": "P0084",
+  "name": "先賢樂子欬",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 251,
+  "pid": "P0085",
+  "name": "邽巽",
+  "kind": "personal"
+ },
+ {
+  "id": 252,
+  "pid": "P0085",
+  "name": "子斂",
+  "kind": "courtesy"
+ },
+ {
+  "id": 253,
+  "pid": "P0085",
+  "name": "先賢邽子巽",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 254,
+  "pid": "P0086",
+  "name": "狄黑",
+  "kind": "personal"
+ },
+ {
+  "id": 255,
+  "pid": "P0086",
+  "name": "晳",
+  "kind": "courtesy"
+ },
+ {
+  "id": 256,
+  "pid": "P0086",
+  "name": "先賢狄子黑",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 257,
+  "pid": "P0087",
+  "name": "陳亢",
+  "kind": "personal"
+ },
+ {
+  "id": 258,
+  "pid": "P0087",
+  "name": "子禽",
+  "kind": "courtesy"
+ },
+ {
+  "id": 259,
+  "pid": "P0087",
+  "name": "先賢陳子亢",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 260,
+  "pid": "P0088",
+  "name": "孔忠",
+  "kind": "personal"
+ },
+ {
+  "id": 261,
+  "pid": "P0088",
+  "name": "子蔑",
+  "kind": "courtesy"
+ },
+ {
+  "id": 262,
+  "pid": "P0088",
+  "name": "先賢孔子忠",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 263,
+  "pid": "P0089",
+  "name": "琴張",
+  "kind": "personal"
+ },
+ {
+  "id": 264,
+  "pid": "P0089",
+  "name": "子開",
+  "kind": "courtesy"
+ },
+ {
+  "id": 265,
+  "pid": "P0089",
+  "name": "先賢琴子張",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 266,
+  "pid": "P0090",
+  "name": "公西蒧",
+  "kind": "personal"
+ },
+ {
+  "id": 267,
+  "pid": "P0090",
+  "name": "子上",
+  "kind": "courtesy"
+ },
+ {
+  "id": 268,
+  "pid": "P0090",
+  "name": "先賢公西子蒧",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 269,
+  "pid": "P0091",
+  "name": "步叔乘",
+  "kind": "personal"
+ },
+ {
+  "id": 270,
+  "pid": "P0091",
+  "name": "子車",
+  "kind": "courtesy"
+ },
+ {
+  "id": 271,
+  "pid": "P0091",
+  "name": "先賢步叔子乘",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 272,
+  "pid": "P0092",
+  "name": "顏之僕",
+  "kind": "personal"
+ },
+ {
+  "id": 273,
+  "pid": "P0092",
+  "name": "叔",
+  "kind": "courtesy"
+ },
+ {
+  "id": 274,
+  "pid": "P0092",
+  "name": "先賢顏子之僕",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 275,
+  "pid": "P0093",
+  "name": "秦非",
+  "kind": "personal"
+ },
+ {
+  "id": 276,
+  "pid": "P0093",
+  "name": "子之",
+  "kind": "courtesy"
+ },
+ {
+  "id": 277,
+  "pid": "P0093",
+  "name": "先賢秦子非",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 278,
+  "pid": "P0094",
+  "name": "施之常",
+  "kind": "personal"
+ },
+ {
+  "id": 279,
+  "pid": "P0094",
+  "name": "子恆",
+  "kind": "courtesy"
+ },
+ {
+  "id": 280,
+  "pid": "P0094",
+  "name": "先賢施子之常",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 281,
+  "pid": "P0095",
+  "name": "顏噲",
+  "kind": "personal"
+ },
+ {
+  "id": 282,
+  "pid": "P0095",
+  "name": "子聲",
+  "kind": "courtesy"
+ },
+ {
+  "id": 283,
+  "pid": "P0095",
+  "name": "先賢顏子噲",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 284,
+  "pid": "P0096",
+  "name": "申棖",
+  "kind": "personal"
+ },
+ {
+  "id": 285,
+  "pid": "P0096",
+  "name": "先賢申子棖",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 286,
+  "pid": "P0097",
+  "name": "顏何",
+  "kind": "personal"
+ },
+ {
+  "id": 287,
+  "pid": "P0097",
+  "name": "冉",
+  "kind": "courtesy"
+ },
+ {
+  "id": 288,
+  "pid": "P0097",
+  "name": "先賢顏子何",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 289,
+  "pid": "P0098",
+  "name": "左丘明",
+  "kind": "personal"
+ },
+ {
+  "id": 290,
+  "pid": "P0098",
+  "name": "先賢左邱子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 291,
+  "pid": "P0099",
+  "name": "縣亶",
+  "kind": "personal"
+ },
+ {
+  "id": 292,
+  "pid": "P0099",
+  "name": "子象",
+  "kind": "courtesy"
+ },
+ {
+  "id": 293,
+  "pid": "P0099",
+  "name": "先賢縣子亶",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 294,
+  "pid": "P0100",
+  "name": "秦冉",
+  "kind": "personal"
+ },
+ {
+  "id": 295,
+  "pid": "P0100",
+  "name": "開",
+  "kind": "courtesy"
+ },
+ {
+  "id": 296,
+  "pid": "P0100",
+  "name": "先賢秦子冉",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 297,
+  "pid": "P0101",
+  "name": "公明儀",
+  "kind": "personal"
+ },
+ {
+  "id": 298,
+  "pid": "P0101",
+  "name": "先賢公明子儀",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 299,
+  "pid": "P0102",
+  "name": "牧皮",
+  "kind": "personal"
+ },
+ {
+  "id": 300,
+  "pid": "P0102",
+  "name": "先賢牧子皮",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 301,
+  "pid": "P0103",
+  "name": "樂正克",
+  "kind": "personal"
+ },
+ {
+  "id": 302,
+  "pid": "P0103",
+  "name": "先賢樂正子克",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 303,
+  "pid": "P0104",
+  "name": "公都子",
+  "kind": "personal"
+ },
+ {
+  "id": 304,
+  "pid": "P0104",
+  "name": "先賢公都子",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 305,
+  "pid": "P0105",
+  "name": "萬章",
+  "kind": "personal"
+ },
+ {
+  "id": 306,
+  "pid": "P0105",
+  "name": "先賢萬子章",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 307,
+  "pid": "P0106",
+  "name": "公孫丑",
+  "kind": "personal"
+ },
+ {
+  "id": 308,
+  "pid": "P0106",
+  "name": "先賢公孫子丑",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 309,
+  "pid": "P0107",
+  "name": "周敦頤",
+  "kind": "personal"
+ },
+ {
+  "id": 310,
+  "pid": "P0107",
+  "name": "茂叔",
+  "kind": "courtesy"
+ },
+ {
+  "id": 311,
+  "pid": "P0107",
+  "name": "元公",
+  "kind": "posthumous"
+ },
+ {
+  "id": 312,
+  "pid": "P0107",
+  "name": "先賢周子敦頤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 313,
+  "pid": "P0108",
+  "name": "程顥",
+  "kind": "personal"
+ },
+ {
+  "id": 314,
+  "pid": "P0108",
+  "name": "伯淳",
+  "kind": "courtesy"
+ },
+ {
+  "id": 315,
+  "pid": "P0108",
+  "name": "純公",
+  "kind": "posthumous"
+ },
+ {
+  "id": 316,
+  "pid": "P0108",
+  "name": "明道先生",
+  "kind": "style"
+ },
+ {
+  "id": 317,
+  "pid": "P0108",
+  "name": "先賢程子顥",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 318,
+  "pid": "P0109",
+  "name": "邵雍",
+  "kind": "personal"
+ },
+ {
+  "id": 319,
+  "pid": "P0109",
+  "name": "堯夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 320,
+  "pid": "P0109",
+  "name": "康節",
+  "kind": "posthumous"
+ },
+ {
+  "id": 321,
+  "pid": "P0109",
+  "name": "安樂先生",
+  "kind": "style"
+ },
+ {
+  "id": 322,
+  "pid": "P0109",
+  "name": "先賢邵子雍",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 323,
+  "pid": "P0110",
+  "name": "張載",
+  "kind": "personal"
+ },
+ {
+  "id": 324,
+  "pid": "P0110",
+  "name": "子厚",
+  "kind": "courtesy"
+ },
+ {
+  "id": 325,
+  "pid": "P0110",
+  "name": "明公",
+  "kind": "posthumous"
+ },
+ {
+  "id": 326,
+  "pid": "P0110",
+  "name": "橫渠先生",
+  "kind": "style"
+ },
+ {
+  "id": 327,
+  "pid": "P0110",
+  "name": "先賢張子載",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 328,
+  "pid": "P0111",
+  "name": "程頤",
+  "kind": "personal"
+ },
+ {
+  "id": 329,
+  "pid": "P0111",
+  "name": "正叔",
+  "kind": "courtesy"
+ },
+ {
+  "id": 330,
+  "pid": "P0111",
+  "name": "正公",
+  "kind": "posthumous"
+ },
+ {
+  "id": 331,
+  "pid": "P0111",
+  "name": "伊川先生",
+  "kind": "style"
+ },
+ {
+  "id": 332,
+  "pid": "P0111",
+  "name": "先賢程子頤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 333,
+  "pid": "P0112",
+  "name": "公羊高",
+  "kind": "personal"
+ },
+ {
+  "id": 334,
+  "pid": "P0112",
+  "name": "先儒公羊子高",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 335,
+  "pid": "P0113",
+  "name": "穀梁赤",
+  "kind": "personal"
+ },
+ {
+  "id": 336,
+  "pid": "P0113",
+  "name": "先儒穀梁子赤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 337,
+  "pid": "P0114",
+  "name": "伏勝",
+  "kind": "personal"
+ },
+ {
+  "id": 338,
+  "pid": "P0114",
+  "name": "子賤",
+  "kind": "courtesy"
+ },
+ {
+  "id": 339,
+  "pid": "P0114",
+  "name": "先儒伏子勝",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 340,
+  "pid": "P0115",
+  "name": "高堂生",
+  "kind": "personal"
+ },
+ {
+  "id": 341,
+  "pid": "P0115",
+  "name": "伯",
+  "kind": "courtesy"
+ },
+ {
+  "id": 342,
+  "pid": "P0115",
+  "name": "先儒高堂子生",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 343,
+  "pid": "P0116",
+  "name": "毛亨",
+  "kind": "personal"
+ },
+ {
+  "id": 344,
+  "pid": "P0116",
+  "name": "先儒毛子亨",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 345,
+  "pid": "P0117",
+  "name": "孔安國",
+  "kind": "personal"
+ },
+ {
+  "id": 346,
+  "pid": "P0117",
+  "name": "子國",
+  "kind": "courtesy"
+ },
+ {
+  "id": 347,
+  "pid": "P0117",
+  "name": "先儒孔子安國",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 348,
+  "pid": "P0118",
+  "name": "董仲舒",
+  "kind": "personal"
+ },
+ {
+  "id": 349,
+  "pid": "P0118",
+  "name": "寬夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 350,
+  "pid": "P0118",
+  "name": "先儒董子仲舒",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 351,
+  "pid": "P0119",
+  "name": "毛萇",
+  "kind": "personal"
+ },
+ {
+  "id": 352,
+  "pid": "P0119",
+  "name": "先儒毛子萇",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 353,
+  "pid": "P0120",
+  "name": "后蒼",
+  "kind": "personal"
+ },
+ {
+  "id": 354,
+  "pid": "P0120",
+  "name": "近君",
+  "kind": "courtesy"
+ },
+ {
+  "id": 355,
+  "pid": "P0120",
+  "name": "先儒后子蒼",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 356,
+  "pid": "P0121",
+  "name": "杜子春",
+  "kind": "personal"
+ },
+ {
+  "id": 357,
+  "pid": "P0121",
+  "name": "時元",
+  "kind": "courtesy"
+ },
+ {
+  "id": 358,
+  "pid": "P0121",
+  "name": "先儒杜子子春",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 359,
+  "pid": "P0122",
+  "name": "鄭玄",
+  "kind": "personal"
+ },
+ {
+  "id": 360,
+  "pid": "P0122",
+  "name": "康成",
+  "kind": "courtesy"
+ },
+ {
+  "id": 361,
+  "pid": "P0122",
+  "name": "先儒鄭子康成",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 362,
+  "pid": "P0123",
+  "name": "范甯",
+  "kind": "personal"
+ },
+ {
+  "id": 363,
+  "pid": "P0123",
+  "name": "武子",
+  "kind": "courtesy"
+ },
+ {
+  "id": 364,
+  "pid": "P0123",
+  "name": "先儒范子甯",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 365,
+  "pid": "P0124",
+  "name": "諸葛亮",
+  "kind": "personal"
+ },
+ {
+  "id": 366,
+  "pid": "P0124",
+  "name": "孔明",
+  "kind": "courtesy"
+ },
+ {
+  "id": 367,
+  "pid": "P0124",
+  "name": "忠武",
+  "kind": "posthumous"
+ },
+ {
+  "id": 368,
+  "pid": "P0124",
+  "name": "先儒諸葛子亮",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 369,
+  "pid": "P0125",
+  "name": "王通",
+  "kind": "personal"
+ },
+ {
+  "id": 370,
+  "pid": "P0125",
+  "name": "仲淹",
+  "kind": "courtesy"
+ },
+ {
+  "id": 371,
+  "pid": "P0125",
+  "name": "先儒王子通",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 372,
+  "pid": "P0126",
+  "name": "陸贄",
+  "kind": "personal"
+ },
+ {
+  "id": 373,
+  "pid": "P0126",
+  "name": "敬輿",
+  "kind": "courtesy"
+ },
+ {
+  "id": 374,
+  "pid": "P0126",
+  "name": "宣",
+  "kind": "posthumous"
+ },
+ {
+  "id": 375,
+  "pid": "P0126",
+  "name": "先儒陸子贄",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 376,
+  "pid": "P0127",
+  "name": "韓愈",
+  "kind": "personal"
+ },
+ {
+  "id": 377,
+  "pid": "P0127",
+  "name": "退之",
+  "kind": "courtesy"
+ },
+ {
+  "id": 378,
+  "pid": "P0127",
+  "name": "文",
+  "kind": "posthumous"
+ },
+ {
+  "id": 379,
+  "pid": "P0127",
+  "name": "先儒韓子愈",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 380,
+  "pid": "P0128",
+  "name": "韓琦",
+  "kind": "personal"
+ },
+ {
+  "id": 381,
+  "pid": "P0128",
+  "name": "稚圭",
+  "kind": "courtesy"
+ },
+ {
+  "id": 382,
+  "pid": "P0128",
+  "name": "忠獻",
+  "kind": "posthumous"
+ },
+ {
+  "id": 383,
+  "pid": "P0128",
+  "name": "先儒韓子琦",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 384,
+  "pid": "P0129",
+  "name": "范仲淹",
+  "kind": "personal"
+ },
+ {
+  "id": 385,
+  "pid": "P0129",
+  "name": "希文",
+  "kind": "courtesy"
+ },
+ {
+  "id": 386,
+  "pid": "P0129",
+  "name": "文正",
+  "kind": "posthumous"
+ },
+ {
+  "id": 387,
+  "pid": "P0129",
+  "name": "先儒范子仲淹",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 388,
+  "pid": "P0130",
+  "name": "歐陽修",
+  "kind": "personal"
+ },
+ {
+  "id": 389,
+  "pid": "P0130",
+  "name": "永叔",
+  "kind": "courtesy"
+ },
+ {
+  "id": 390,
+  "pid": "P0130",
+  "name": "醉翁",
+  "kind": "style"
+ },
+ {
+  "id": 391,
+  "pid": "P0130",
+  "name": "六一居士",
+  "kind": "style"
+ },
+ {
+  "id": 392,
+  "pid": "P0130",
+  "name": "文忠",
+  "kind": "posthumous"
+ },
+ {
+  "id": 393,
+  "pid": "P0130",
+  "name": "先儒歐陽子修",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 394,
+  "pid": "P0131",
+  "name": "胡瑗",
+  "kind": "personal"
+ },
+ {
+  "id": 395,
+  "pid": "P0131",
+  "name": "翼之",
+  "kind": "courtesy"
+ },
+ {
+  "id": 396,
+  "pid": "P0131",
+  "name": "安定先生",
+  "kind": "style"
+ },
+ {
+  "id": 397,
+  "pid": "P0131",
+  "name": "先儒胡子瑗",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 398,
+  "pid": "P0132",
+  "name": "司馬光",
+  "kind": "personal"
+ },
+ {
+  "id": 399,
+  "pid": "P0132",
+  "name": "君實",
+  "kind": "courtesy"
+ },
+ {
+  "id": 400,
+  "pid": "P0132",
+  "name": "文正",
+  "kind": "posthumous"
+ },
+ {
+  "id": 401,
+  "pid": "P0132",
+  "name": "先儒司馬子光",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 402,
+  "pid": "P0133",
+  "name": "楊時",
+  "kind": "personal"
+ },
+ {
+  "id": 403,
+  "pid": "P0133",
+  "name": "中立",
+  "kind": "courtesy"
+ },
+ {
+  "id": 404,
+  "pid": "P0133",
+  "name": "龜山先生",
+  "kind": "style"
+ },
+ {
+  "id": 405,
+  "pid": "P0133",
+  "name": "文靖",
+  "kind": "posthumous"
+ },
+ {
+  "id": 406,
+  "pid": "P0133",
+  "name": "先儒楊子時",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 407,
+  "pid": "P0134",
+  "name": "尹焞",
+  "kind": "personal"
+ },
+ {
+  "id": 408,
+  "pid": "P0134",
+  "name": "彥明",
+  "kind": "courtesy"
+ },
+ {
+  "id": 409,
+  "pid": "P0134",
+  "name": "德充",
+  "kind": "courtesy"
+ },
+ {
+  "id": 410,
+  "pid": "P0134",
+  "name": "和靖處士",
+  "kind": "style"
+ },
+ {
+  "id": 411,
+  "pid": "P0134",
+  "name": "先儒尹子焞",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 412,
+  "pid": "P0135",
+  "name": "謝良佐",
+  "kind": "personal"
+ },
+ {
+  "id": 413,
+  "pid": "P0135",
+  "name": "顯道",
+  "kind": "courtesy"
+ },
+ {
+  "id": 414,
+  "pid": "P0135",
+  "name": "先儒謝子良佐",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 415,
+  "pid": "P0136",
+  "name": "胡安國",
+  "kind": "personal"
+ },
+ {
+  "id": 416,
+  "pid": "P0136",
+  "name": "康侯",
+  "kind": "courtesy"
+ },
+ {
+  "id": 417,
+  "pid": "P0136",
+  "name": "文定",
+  "kind": "posthumous"
+ },
+ {
+  "id": 418,
+  "pid": "P0136",
+  "name": "先儒胡子安國",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 419,
+  "pid": "P0137",
+  "name": "李綱",
+  "kind": "personal"
+ },
+ {
+  "id": 420,
+  "pid": "P0137",
+  "name": "伯紀",
+  "kind": "courtesy"
+ },
+ {
+  "id": 421,
+  "pid": "P0137",
+  "name": "文定",
+  "kind": "posthumous"
+ },
+ {
+  "id": 422,
+  "pid": "P0137",
+  "name": "先儒李子綱",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 423,
+  "pid": "P0138",
+  "name": "羅從彥",
+  "kind": "personal"
+ },
+ {
+  "id": 424,
+  "pid": "P0138",
+  "name": "仲素",
+  "kind": "courtesy"
+ },
+ {
+  "id": 425,
+  "pid": "P0138",
+  "name": "豫章先生",
+  "kind": "style"
+ },
+ {
+  "id": 426,
+  "pid": "P0138",
+  "name": "文質",
+  "kind": "posthumous"
+ },
+ {
+  "id": 427,
+  "pid": "P0138",
+  "name": "先儒羅子從彥",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 428,
+  "pid": "P0139",
+  "name": "李侗",
+  "kind": "personal"
+ },
+ {
+  "id": 429,
+  "pid": "P0139",
+  "name": "愿中",
+  "kind": "courtesy"
+ },
+ {
+  "id": 430,
+  "pid": "P0139",
+  "name": "延平先生",
+  "kind": "style"
+ },
+ {
+  "id": 431,
+  "pid": "P0139",
+  "name": "文靖",
+  "kind": "posthumous"
+ },
+ {
+  "id": 432,
+  "pid": "P0139",
+  "name": "先儒李子侗",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 433,
+  "pid": "P0140",
+  "name": "陸九淵",
+  "kind": "personal"
+ },
+ {
+  "id": 434,
+  "pid": "P0140",
+  "name": "子靜",
+  "kind": "courtesy"
+ },
+ {
+  "id": 435,
+  "pid": "P0140",
+  "name": "象山翁",
+  "kind": "style"
+ },
+ {
+  "id": 436,
+  "pid": "P0140",
+  "name": "象山先生",
+  "kind": "style"
+ },
+ {
+  "id": 437,
+  "pid": "P0140",
+  "name": "文安",
+  "kind": "posthumous"
+ },
+ {
+  "id": 438,
+  "pid": "P0140",
+  "name": "先儒陸子九淵",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 439,
+  "pid": "P0141",
+  "name": "張栻",
+  "kind": "personal"
+ },
+ {
+  "id": 440,
+  "pid": "P0141",
+  "name": "敬夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 441,
+  "pid": "P0141",
+  "name": "南軒先生",
+  "kind": "style"
+ },
+ {
+  "id": 442,
+  "pid": "P0141",
+  "name": "宣",
+  "kind": "posthumous"
+ },
+ {
+  "id": 443,
+  "pid": "P0141",
+  "name": "先儒張子栻",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 444,
+  "pid": "P0142",
+  "name": "呂祖謙",
+  "kind": "personal"
+ },
+ {
+  "id": 445,
+  "pid": "P0142",
+  "name": "伯恭",
+  "kind": "courtesy"
+ },
+ {
+  "id": 446,
+  "pid": "P0142",
+  "name": "東萊先生",
+  "kind": "style"
+ },
+ {
+  "id": 447,
+  "pid": "P0142",
+  "name": "成",
+  "kind": "posthumous"
+ },
+ {
+  "id": 448,
+  "pid": "P0142",
+  "name": "先儒呂子祖謙",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 449,
+  "pid": "P0143",
+  "name": "袁燮",
+  "kind": "personal"
+ },
+ {
+  "id": 450,
+  "pid": "P0143",
+  "name": "和叔",
+  "kind": "courtesy"
+ },
+ {
+  "id": 451,
+  "pid": "P0143",
+  "name": "絜齋先生",
+  "kind": "style"
+ },
+ {
+  "id": 452,
+  "pid": "P0143",
+  "name": "先儒袁子燮",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 453,
+  "pid": "P0144",
+  "name": "黃榦",
+  "kind": "personal"
+ },
+ {
+  "id": 454,
+  "pid": "P0144",
+  "name": "直卿",
+  "kind": "courtesy"
+ },
+ {
+  "id": 455,
+  "pid": "P0144",
+  "name": "勉齋先生",
+  "kind": "style"
+ },
+ {
+  "id": 456,
+  "pid": "P0144",
+  "name": "文肅",
+  "kind": "posthumous"
+ },
+ {
+  "id": 457,
+  "pid": "P0144",
+  "name": "先儒黃子榦",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 458,
+  "pid": "P0145",
+  "name": "陳淳",
+  "kind": "personal"
+ },
+ {
+  "id": 459,
+  "pid": "P0145",
+  "name": "安卿",
+  "kind": "courtesy"
+ },
+ {
+  "id": 460,
+  "pid": "P0145",
+  "name": "北溪先生",
+  "kind": "style"
+ },
+ {
+  "id": 461,
+  "pid": "P0145",
+  "name": "先儒陳子淳",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 462,
+  "pid": "P0146",
+  "name": "蔡沈",
+  "kind": "personal"
+ },
+ {
+  "id": 463,
+  "pid": "P0146",
+  "name": "仲默",
+  "kind": "courtesy"
+ },
+ {
+  "id": 464,
+  "pid": "P0146",
+  "name": "九峯先生",
+  "kind": "style"
+ },
+ {
+  "id": 465,
+  "pid": "P0146",
+  "name": "先儒蔡子沈",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 466,
+  "pid": "P0147",
+  "name": "真德秀",
+  "kind": "personal"
+ },
+ {
+  "id": 467,
+  "pid": "P0147",
+  "name": "希元",
+  "kind": "courtesy"
+ },
+ {
+  "id": 468,
+  "pid": "P0147",
+  "name": "西山先生",
+  "kind": "style"
+ },
+ {
+  "id": 469,
+  "pid": "P0147",
+  "name": "文忠",
+  "kind": "posthumous"
+ },
+ {
+  "id": 470,
+  "pid": "P0147",
+  "name": "先儒真子德秀",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 471,
+  "pid": "P0148",
+  "name": "魏了翁",
+  "kind": "personal"
+ },
+ {
+  "id": 472,
+  "pid": "P0148",
+  "name": "華父",
+  "kind": "courtesy"
+ },
+ {
+  "id": 473,
+  "pid": "P0148",
+  "name": "鶴山先生",
+  "kind": "style"
+ },
+ {
+  "id": 474,
+  "pid": "P0148",
+  "name": "文靖",
+  "kind": "posthumous"
+ },
+ {
+  "id": 475,
+  "pid": "P0148",
+  "name": "先儒魏子了翁",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 476,
+  "pid": "P0149",
+  "name": "何基",
+  "kind": "personal"
+ },
+ {
+  "id": 477,
+  "pid": "P0149",
+  "name": "子恭",
+  "kind": "courtesy"
+ },
+ {
+  "id": 478,
+  "pid": "P0149",
+  "name": "文定",
+  "kind": "posthumous"
+ },
+ {
+  "id": 479,
+  "pid": "P0149",
+  "name": "先儒何子基",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 480,
+  "pid": "P0150",
+  "name": "王柏",
+  "kind": "personal"
+ },
+ {
+  "id": 481,
+  "pid": "P0150",
+  "name": "會之",
+  "kind": "courtesy"
+ },
+ {
+  "id": 482,
+  "pid": "P0150",
+  "name": "長嘯",
+  "kind": "style"
+ },
+ {
+  "id": 483,
+  "pid": "P0150",
+  "name": "魯齋",
+  "kind": "style"
+ },
+ {
+  "id": 484,
+  "pid": "P0150",
+  "name": "文憲",
+  "kind": "posthumous"
+ },
+ {
+  "id": 485,
+  "pid": "P0150",
+  "name": "先儒王子柏",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 486,
+  "pid": "P0151",
+  "name": "金履祥",
+  "kind": "personal"
+ },
+ {
+  "id": 487,
+  "pid": "P0151",
+  "name": "吉夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 488,
+  "pid": "P0151",
+  "name": "仁山先生",
+  "kind": "style"
+ },
+ {
+  "id": 489,
+  "pid": "P0151",
+  "name": "文安",
+  "kind": "posthumous"
+ },
+ {
+  "id": 490,
+  "pid": "P0151",
+  "name": "先儒金子履祥",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 491,
+  "pid": "P0152",
+  "name": "文天祥",
+  "kind": "personal"
+ },
+ {
+  "id": 492,
+  "pid": "P0152",
+  "name": "宋瑞",
+  "kind": "courtesy"
+ },
+ {
+  "id": 493,
+  "pid": "P0152",
+  "name": "履善",
+  "kind": "courtesy"
+ },
+ {
+  "id": 494,
+  "pid": "P0152",
+  "name": "先儒文子天祥",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 495,
+  "pid": "P0153",
+  "name": "陸秀夫",
+  "kind": "personal"
+ },
+ {
+  "id": 496,
+  "pid": "P0153",
+  "name": "君實",
+  "kind": "courtesy"
+ },
+ {
+  "id": 497,
+  "pid": "P0153",
+  "name": "先儒陸子秀夫",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 498,
+  "pid": "P0154",
+  "name": "趙復",
+  "kind": "personal"
+ },
+ {
+  "id": 499,
+  "pid": "P0154",
+  "name": "仁甫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 500,
+  "pid": "P0154",
+  "name": "江漢",
+  "kind": "style"
+ },
+ {
+  "id": 501,
+  "pid": "P0154",
+  "name": "江漢先生",
+  "kind": "style"
+ },
+ {
+  "id": 502,
+  "pid": "P0154",
+  "name": "先儒趙子復",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 503,
+  "pid": "P0155",
+  "name": "陳澔",
+  "kind": "personal"
+ },
+ {
+  "id": 504,
+  "pid": "P0155",
+  "name": "可大",
+  "kind": "courtesy"
+ },
+ {
+  "id": 505,
+  "pid": "P0155",
+  "name": "雲莊",
+  "kind": "style"
+ },
+ {
+  "id": 506,
+  "pid": "P0155",
+  "name": "北山叟",
+  "kind": "style"
+ },
+ {
+  "id": 507,
+  "pid": "P0155",
+  "name": "經歸先生",
+  "kind": "style"
+ },
+ {
+  "id": 508,
+  "pid": "P0155",
+  "name": "先儒陳子澔",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 509,
+  "pid": "P0156",
+  "name": "許謙",
+  "kind": "personal"
+ },
+ {
+  "id": 510,
+  "pid": "P0156",
+  "name": "益之",
+  "kind": "courtesy"
+ },
+ {
+  "id": 511,
+  "pid": "P0156",
+  "name": "白雲山人",
+  "kind": "style"
+ },
+ {
+  "id": 512,
+  "pid": "P0156",
+  "name": "白雲先生",
+  "kind": "style"
+ },
+ {
+  "id": 513,
+  "pid": "P0156",
+  "name": "文懿",
+  "kind": "posthumous"
+ },
+ {
+  "id": 514,
+  "pid": "P0156",
+  "name": "先儒許子謙",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 515,
+  "pid": "P0157",
+  "name": "許衡",
+  "kind": "personal"
+ },
+ {
+  "id": 516,
+  "pid": "P0157",
+  "name": "平仲",
+  "kind": "courtesy"
+ },
+ {
+  "id": 517,
+  "pid": "P0157",
+  "name": "魯齋先生",
+  "kind": "style"
+ },
+ {
+  "id": 518,
+  "pid": "P0157",
+  "name": "文正",
+  "kind": "posthumous"
+ },
+ {
+  "id": 519,
+  "pid": "P0157",
+  "name": "先儒許子衡",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 520,
+  "pid": "P0158",
+  "name": "吳澄",
+  "kind": "personal"
+ },
+ {
+  "id": 521,
+  "pid": "P0158",
+  "name": "幼清",
+  "kind": "courtesy"
+ },
+ {
+  "id": 522,
+  "pid": "P0158",
+  "name": "草廬先生",
+  "kind": "style"
+ },
+ {
+  "id": 523,
+  "pid": "P0158",
+  "name": "文正",
+  "kind": "posthumous"
+ },
+ {
+  "id": 524,
+  "pid": "P0158",
+  "name": "先儒吳子澄",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 525,
+  "pid": "P0159",
+  "name": "方孝孺",
+  "kind": "personal"
+ },
+ {
+  "id": 526,
+  "pid": "P0159",
+  "name": "希直",
+  "kind": "courtesy"
+ },
+ {
+  "id": 527,
+  "pid": "P0159",
+  "name": "希古",
+  "kind": "courtesy"
+ },
+ {
+  "id": 528,
+  "pid": "P0159",
+  "name": "遜志",
+  "kind": "style"
+ },
+ {
+  "id": 529,
+  "pid": "P0159",
+  "name": "小韓子",
+  "kind": "style"
+ },
+ {
+  "id": 530,
+  "pid": "P0159",
+  "name": "先儒方子孝孺",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 531,
+  "pid": "P0160",
+  "name": "曹端",
+  "kind": "personal"
+ },
+ {
+  "id": 532,
+  "pid": "P0160",
+  "name": "正夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 533,
+  "pid": "P0160",
+  "name": "月川先生",
+  "kind": "style"
+ },
+ {
+  "id": 534,
+  "pid": "P0160",
+  "name": "先儒曹子端",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 535,
+  "pid": "P0161",
+  "name": "薛瑄",
+  "kind": "personal"
+ },
+ {
+  "id": 536,
+  "pid": "P0161",
+  "name": "德溫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 537,
+  "pid": "P0161",
+  "name": "敬軒",
+  "kind": "style"
+ },
+ {
+  "id": 538,
+  "pid": "P0161",
+  "name": "文清",
+  "kind": "posthumous"
+ },
+ {
+  "id": 539,
+  "pid": "P0161",
+  "name": "先儒薛子瑄",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 540,
+  "pid": "P0162",
+  "name": "胡居仁",
+  "kind": "personal"
+ },
+ {
+  "id": 541,
+  "pid": "P0162",
+  "name": "叔心",
+  "kind": "courtesy"
+ },
+ {
+  "id": 542,
+  "pid": "P0162",
+  "name": "文敬",
+  "kind": "posthumous"
+ },
+ {
+  "id": 543,
+  "pid": "P0162",
+  "name": "先儒胡子居仁",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 544,
+  "pid": "P0163",
+  "name": "陳獻章",
+  "kind": "personal"
+ },
+ {
+  "id": 545,
+  "pid": "P0163",
+  "name": "公甫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 546,
+  "pid": "P0163",
+  "name": "文恭",
+  "kind": "posthumous"
+ },
+ {
+  "id": 547,
+  "pid": "P0163",
+  "name": "先儒陳子獻章",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 548,
+  "pid": "P0164",
+  "name": "蔡清",
+  "kind": "personal"
+ },
+ {
+  "id": 549,
+  "pid": "P0164",
+  "name": "介夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 550,
+  "pid": "P0164",
+  "name": "虛齋先生",
+  "kind": "style"
+ },
+ {
+  "id": 551,
+  "pid": "P0164",
+  "name": "文莊",
+  "kind": "posthumous"
+ },
+ {
+  "id": 552,
+  "pid": "P0164",
+  "name": "先儒蔡子清",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 553,
+  "pid": "P0165",
+  "name": "王守仁",
+  "kind": "personal"
+ },
+ {
+  "id": 554,
+  "pid": "P0165",
+  "name": "伯安",
+  "kind": "courtesy"
+ },
+ {
+  "id": 555,
+  "pid": "P0165",
+  "name": "文成",
+  "kind": "posthumous"
+ },
+ {
+  "id": 556,
+  "pid": "P0165",
+  "name": "先儒王子守仁",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 557,
+  "pid": "P0166",
+  "name": "羅欽順",
+  "kind": "personal"
+ },
+ {
+  "id": 558,
+  "pid": "P0166",
+  "name": "允升",
+  "kind": "courtesy"
+ },
+ {
+  "id": 559,
+  "pid": "P0166",
+  "name": "整菴",
+  "kind": "style"
+ },
+ {
+  "id": 560,
+  "pid": "P0166",
+  "name": "文莊",
+  "kind": "posthumous"
+ },
+ {
+  "id": 561,
+  "pid": "P0166",
+  "name": "先儒羅子欽順",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 562,
+  "pid": "P0167",
+  "name": "呂柟",
+  "kind": "personal"
+ },
+ {
+  "id": 563,
+  "pid": "P0167",
+  "name": "仲木",
+  "kind": "courtesy"
+ },
+ {
+  "id": 564,
+  "pid": "P0167",
+  "name": "涇野",
+  "kind": "style"
+ },
+ {
+  "id": 565,
+  "pid": "P0167",
+  "name": "先儒呂子柟",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 566,
+  "pid": "P0168",
+  "name": "呂坤",
+  "kind": "personal"
+ },
+ {
+  "id": 567,
+  "pid": "P0168",
+  "name": "叔簡",
+  "kind": "courtesy"
+ },
+ {
+  "id": 568,
+  "pid": "P0168",
+  "name": "新吾",
+  "kind": "style"
+ },
+ {
+  "id": 569,
+  "pid": "P0168",
+  "name": "沙隨夫子",
+  "kind": "style"
+ },
+ {
+  "id": 570,
+  "pid": "P0168",
+  "name": "先儒呂子坤",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 571,
+  "pid": "P0169",
+  "name": "劉宗周",
+  "kind": "personal"
+ },
+ {
+  "id": 572,
+  "pid": "P0169",
+  "name": "起東",
+  "kind": "courtesy"
+ },
+ {
+  "id": 573,
+  "pid": "P0169",
+  "name": "蕺山",
+  "kind": "style"
+ },
+ {
+  "id": 574,
+  "pid": "P0169",
+  "name": "念臺先生",
+  "kind": "style"
+ },
+ {
+  "id": 575,
+  "pid": "P0169",
+  "name": "忠端",
+  "kind": "posthumous"
+ },
+ {
+  "id": 576,
+  "pid": "P0169",
+  "name": "忠介",
+  "kind": "posthumous"
+ },
+ {
+  "id": 577,
+  "pid": "P0169",
+  "name": "先儒劉子宗周",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 578,
+  "pid": "P0170",
+  "name": "黃道周",
+  "kind": "personal"
+ },
+ {
+  "id": 579,
+  "pid": "P0170",
+  "name": "幼平",
+  "kind": "courtesy"
+ },
+ {
+  "id": 580,
+  "pid": "P0170",
+  "name": "石齋先生",
+  "kind": "style"
+ },
+ {
+  "id": 581,
+  "pid": "P0170",
+  "name": "先儒黃子道周",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 582,
+  "pid": "P0171",
+  "name": "孫奇逢",
+  "kind": "personal"
+ },
+ {
+  "id": 583,
+  "pid": "P0171",
+  "name": "啟泰",
+  "kind": "courtesy"
+ },
+ {
+  "id": 584,
+  "pid": "P0171",
+  "name": "鍾元",
+  "kind": "style"
+ },
+ {
+  "id": 585,
+  "pid": "P0171",
+  "name": "先儒孫子奇逢",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 586,
+  "pid": "P0172",
+  "name": "湯斌",
+  "kind": "personal"
+ },
+ {
+  "id": 587,
+  "pid": "P0172",
+  "name": "孔伯",
+  "kind": "courtesy"
+ },
+ {
+  "id": 588,
+  "pid": "P0172",
+  "name": "潛菴",
+  "kind": "style"
+ },
+ {
+  "id": 589,
+  "pid": "P0172",
+  "name": "文正",
+  "kind": "posthumous"
+ },
+ {
+  "id": 590,
+  "pid": "P0172",
+  "name": "先儒湯子斌",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 591,
+  "pid": "P0173",
+  "name": "陸隴其",
+  "kind": "personal"
+ },
+ {
+  "id": 592,
+  "pid": "P0173",
+  "name": "稼書",
+  "kind": "courtesy"
+ },
+ {
+  "id": 593,
+  "pid": "P0173",
+  "name": "清獻",
+  "kind": "posthumous"
+ },
+ {
+  "id": 594,
+  "pid": "P0173",
+  "name": "先儒陸子隴其",
+  "kind": "enshrinement_title"
+ },
+ {
+  "id": 595,
+  "pid": "P0174",
+  "name": "張履祥",
+  "kind": "personal"
+ },
+ {
+  "id": 596,
+  "pid": "P0174",
+  "name": "考夫",
+  "kind": "courtesy"
+ },
+ {
+  "id": 597,
+  "pid": "P0174",
+  "name": "楊園先生",
+  "kind": "style"
+ },
+ {
+  "id": 598,
+  "pid": "P0174",
+  "name": "先儒張子履祥",
+  "kind": "enshrinement_title"
+ }
+]
